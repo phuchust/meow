@@ -20173,7 +20173,6 @@ const AE = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAfQAAAH1AQMAAAA6RJ5sAA
                                 const o = await this.apiCall("sync");
                                 this.stores.user.setHero(o.hero)
                             } catch (o) {
-                                console.log("Phuc test sync")
                                 throw this.isPingInProcess = !1,
                                 o
                             }
@@ -20184,7 +20183,6 @@ const AE = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAfQAAAH1AQMAAAA6RJ5sAA
                             await this.apiCall("ping")
                         } catch (o) {
                             console.error(o)
-                            console.log("Phuc test ping")
                         }
             }
             ).bind(this), 5e3)
@@ -23452,7 +23450,7 @@ const dg = function(e) {
                 o.hero.money += this.stores.user.getTappedAllMoney,
                 o.hero.earns = this._cloneObject(this.stores.user.hero.earns),
                 this.stores.user.setHero(o.hero),
-                this.stores.user.setTappedToday(100)
+                this.stores.user.setTappedToday(o.tapped_today)
             } else
                 this.stores.user.lastSendTappedDate && this.stores.user.setLastSendTappedDate(null)
         },
