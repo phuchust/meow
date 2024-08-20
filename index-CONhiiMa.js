@@ -4641,65 +4641,65 @@ function bf(e, t) {
     e
 }
 var dv = {
-    name: "ê©ñº",
-    tel: "??",
-    save: "ï€ë∂",
-    clear: "ê¥ãÛ",
-    cancel: "éÊè¡",
-    confirm: "??",
-    delete: "?èú",
-    loading: "â¡?íÜ...",
-    noCoupon: "?ùŸ?ú®åî",
-    nameEmpty: "?ìUé ê©ñº",
-    addContact: "ìYâ¡?ånêl",
-    telInvalid: "?ìUé ê≥?ìI??",
+    name: "ÂßìÂêç",
+    tel: "ÁîµËØù",
+    save: "‰øùÂ≠ò",
+    clear: "Ê∏ÖÁ©∫",
+    cancel: "ÂèñÊ∂à",
+    confirm: "Á°ÆËÆ§",
+    delete: "Âà†Èô§",
+    loading: "Âä†ËΩΩ‰∏≠...",
+    noCoupon: "ÊöÇÊó†‰ºòÊÉ†Âà∏",
+    nameEmpty: "ËØ∑Â°´ÂÜôÂßìÂêç",
+    addContact: "Ê∑ªÂä†ËÅîÁ≥ª‰∫∫",
+    telInvalid: "ËØ∑Â°´ÂÜôÊ≠£Á°ÆÁöÑÁîµËØù",
     vanCalendar: {
-        end: "?ë©",
-        start: "?én",
-        title: "ì˙ä˙??",
-        weekdays: ["ì˙", "àÍ", "ìÒ", "éO", "él", "å‹", "òZ"],
-        monthTitle: (e,t)=>`${e}îN${t}åé`,
-        rangePrompt: e=>`ç≈ëΩ?? ${e} ìV`
+        end: "ÁªìÊùü",
+        start: "ÂºÄÂßã",
+        title: "Êó•ÊúüÈÄâÊã©",
+        weekdays: ["Êó•", "‰∏Ä", "‰∫å", "‰∏â", "Âõõ", "‰∫î", "ÂÖ≠"],
+        monthTitle: (e,t)=>`${e}Âπ¥${t}Êúà`,
+        rangePrompt: e=>`ÊúÄÂ§öÈÄâÊã© ${e} Â§©`
     },
     vanCascader: {
-        select: "???"
+        select: "ËØ∑ÈÄâÊã©"
     },
     vanPagination: {
-        prev: "è„àÍ?",
-        next: "â∫àÍ?"
+        prev: "‰∏ä‰∏ÄÈ°µ",
+        next: "‰∏ã‰∏ÄÈ°µ"
     },
     vanPullRefresh: {
-        pulling: "â∫ùfë¶â¬ç¸êV...",
-        loosing: "?ï˙ë¶â¬ç¸êV..."
+        pulling: "‰∏ãÊãâÂç≥ÂèØÂà∑Êñ∞...",
+        loosing: "ÈáäÊîæÂç≥ÂèØÂà∑Êñ∞..."
     },
     vanSubmitBar: {
-        label: "çá?:"
+        label: "ÂêàËÆ°:"
     },
     vanCoupon: {
-        unlimited: "ùŸ??",
-        discount: e=>`${e}ê‹`,
-        condition: e=>`?${e}å≥â¬óp`
+        unlimited: "Êó†Èó®Êßõ",
+        discount: e=>`${e}Êäò`,
+        condition: e=>`Êª°${e}ÂÖÉÂèØÁî®`
     },
     vanCouponCell: {
-        title: "?ú®åî",
-        count: e=>`${e}?â¬óp`
+        title: "‰ºòÊÉ†Âà∏",
+        count: e=>`${e}Âº†ÂèØÁî®`
     },
     vanCouponList: {
-        exchange: "??",
-        close: "ïségóp",
-        enable: "â¬óp",
-        disabled: "ïsâ¬óp",
-        placeholder: "?ì¸?ú®?"
+        exchange: "ÂÖëÊç¢",
+        close: "‰∏ç‰ΩøÁî®",
+        enable: "ÂèØÁî®",
+        disabled: "‰∏çÂèØÁî®",
+        placeholder: "ËæìÂÖ•‰ºòÊÉ†Á†Å"
     },
     vanAddressEdit: {
-        area: "ínãÊ",
-        areaEmpty: "???ínãÊ",
-        addressEmpty: "?ìUé ??ínö¨",
-        addressDetail: "??ínö¨",
-        defaultAddress: "??‡“?ùæ?ínö¨"
+        area: "Âú∞Âå∫",
+        areaEmpty: "ËØ∑ÈÄâÊã©Âú∞Âå∫",
+        addressEmpty: "ËØ∑Â°´ÂÜôËØ¶ÁªÜÂú∞ÂùÄ",
+        addressDetail: "ËØ¶ÁªÜÂú∞ÂùÄ",
+        defaultAddress: "ËÆæ‰∏∫ÈªòËÆ§Êî∂Ë¥ßÂú∞ÂùÄ"
     },
     vanAddressList: {
-        add: "êV˙ùínö¨"
+        add: "Êñ∞Â¢ûÂú∞ÂùÄ"
     }
 };
 const Rc = $("zh-CN")
@@ -10434,7 +10434,7 @@ const ya = Z(Ep)
     price: Y,
     centered: Boolean,
     lazyLoad: Boolean,
-    currency: G("\"),
+    currency: G("¬•"),
     thumbLink: String,
     originPrice: Y
 };
@@ -11198,7 +11198,7 @@ var h1 = U({
         const n = i=>{
             e.editable && t("click", i)
         }
-          , o = ()=>e.type === "add" ? e.addText || Ua("addContact") : [d("div", null, [`${Ua("name")}ÅF${e.name}`]), d("div", null, [`${Ua("tel")}ÅF${e.tel}`])];
+          , o = ()=>e.type === "add" ? e.addText || Ua("addContact") : [d("div", null, [`${Ua("name")}Ôºö${e.name}`]), d("div", null, [`${Ua("tel")}Ôºö${e.tel}`])];
         return ()=>d(on, {
             center: !0,
             icon: e.type === "edit" ? "contact" : "add-square",
@@ -11342,7 +11342,7 @@ var C1 = U({
                 }
             }, null)
               , l = ()=>{
-                const c = [`${o.name}ÅC${o.tel}`];
+                const c = [`${o.name}Ôºå${o.tel}`];
                 return o.isDefault && e.defaultTagText && c.push(d(va, {
                     type: "primary",
                     round: !0,
@@ -11452,7 +11452,7 @@ var O1 = U({
         chosen: Boolean,
         coupon: dt(Object),
         disabled: Boolean,
-        currency: G("\")
+        currency: G("¬•")
     },
     setup(e) {
         const t = B(()=>{
@@ -11513,7 +11513,7 @@ const As = Z(O1)
     border: z,
     editable: z,
     coupons: Ye(),
-    currency: G("\"),
+    currency: G("¬•"),
     chosenCoupon: {
         type: [Number, Array],
         default: -1
@@ -11871,7 +11871,7 @@ const gh = Z(H1)
   , U1 = {
     code: G(""),
     coupons: Ye(),
-    currency: G("\"),
+    currency: G("¬•"),
     showCount: z,
     emptyImage: String,
     enabledTitle: String,
@@ -17268,7 +17268,7 @@ const bk = Z(yk)
     price: Number,
     tipIcon: String,
     loading: Boolean,
-    currency: G("\"),
+    currency: G("¬•"),
     disabled: Boolean,
     textAlign: String,
     buttonText: String,
@@ -19385,7 +19385,7 @@ function xT(e, t, n, o, i, r) {
                         center: "",
                         onClick: t[17] || (t[17] = w=>r.onLangSelect(r.firstLang.key))
                     }, {
-                        icon: ge(()=>[F("span", lT, te(r.firstLang.icon) + "?", 1)]),
+                        icon: ge(()=>[F("span", lT, te(r.firstLang.icon) + "¬†", 1)]),
                         _: 1
                     }, 8, ["title", "value"]), r.userLang ? (me(),
                     Pt(g, {
@@ -19396,7 +19396,7 @@ function xT(e, t, n, o, i, r) {
                         center: "",
                         onClick: t[18] || (t[18] = w=>r.onLangSelect(r.userLang.key))
                     }, {
-                        icon: ge(()=>[F("span", cT, te(r.userLang.icon) + "?", 1)]),
+                        icon: ge(()=>[F("span", cT, te(r.userLang.icon) + "¬†", 1)]),
                         _: 1
                     }, 8, ["title", "value"])) : mt("", !0)]),
                     _: 1
@@ -19420,7 +19420,7 @@ function xT(e, t, n, o, i, r) {
                         center: "",
                         onClick: I=>r.onLangSelect(k.key)
                     }, {
-                        icon: ge(()=>[F("span", uT, te(k.icon) + "?", 1)]),
+                        icon: ge(()=>[F("span", uT, te(k.icon) + "¬†", 1)]),
                         _: 2
                     }, 1032, ["title", "label", "value", "onClick"]))), 128))]),
                     _: 2
@@ -19474,7 +19474,7 @@ function xT(e, t, n, o, i, r) {
             position: "bottom",
             closeable: ""
         }, {
-            default: ge(()=>[F("div", hT, [gT, F("p", null, te(e.t("Before contacting support, please check the FAQ section for your question.")), 1), F("p", null, te(e.t("Here, youÅfll find answers to the most frequently asked questions from users.")), 1), d(b, {
+            default: ge(()=>[F("div", hT, [gT, F("p", null, te(e.t("Before contacting support, please check the FAQ section for your question.")), 1), F("p", null, te(e.t("Here, you‚Äôll find answers to the most frequently asked questions from users.")), 1), d(b, {
                 modelValue: e.supportFaqValue,
                 "onUpdate:modelValue": t[23] || (t[23] = w=>e.supportFaqValue = w)
             }, {
@@ -19497,14 +19497,14 @@ function xT(e, t, n, o, i, r) {
                     border: !1
                 }, {
                     title: ge(()=>[Ce(te(e.t("I can't receive the prize for subscribing to the channel.")), 1)]),
-                    default: ge(()=>[F("div", yT, [F("p", null, te(e.t("You need to claim your reward in the [Quests] section.")), 1), F("p", null, te(e.t("Click ÅgJoin @muskempireÅh and then claim a reward.")), 1)])]),
+                    default: ge(()=>[F("div", yT, [F("p", null, te(e.t("You need to claim your reward in the [Quests] section.")), 1), F("p", null, te(e.t("Click ‚ÄúJoin @muskempire‚Äù and then claim a reward.")), 1)])]),
                     _: 1
                 }), d(m, {
                     name: "4",
                     border: !1
                 }, {
                     title: ge(()=>[Ce(te(e.t("How do I delete my account?")), 1)]),
-                    default: ge(()=>[F("div", bT, [F("p", null, te(e.t("To delete the account, you need to go to the section with account information. There, you will find the ÅhDelete accountÅh button.")), 1), F("p", null, te(e.t("Please note that once deleted, you will not be able to recover your data!")), 1)])]),
+                    default: ge(()=>[F("div", bT, [F("p", null, te(e.t("To delete the account, you need to go to the section with account information. There, you will find the ‚ÄùDelete account‚Äù button.")), 1), F("p", null, te(e.t("Please note that once deleted, you will not be able to recover your data!")), 1)])]),
                     _: 1
                 }), d(m, {
                     name: "5",
@@ -19532,7 +19532,7 @@ function xT(e, t, n, o, i, r) {
                     border: !1
                 }, {
                     title: ge(()=>[Ce(te(e.t("What is most important in negotiations?")), 1)]),
-                    default: ge(()=>[F("div", _T, [F("p", null, te(e.t("In the ÅhNegotiationsÅh section, there is a detailed guide on how to participate in this activity. If players choose the same cards, the winner is determined by the level of development of certain skills. The first skill for comparison is ÅhNegotiationsÅh.")), 1)])]),
+                    default: ge(()=>[F("div", _T, [F("p", null, te(e.t("In the ‚ÄùNegotiations‚Äù section, there is a detailed guide on how to participate in this activity. If players choose the same cards, the winner is determined by the level of development of certain skills. The first skill for comparison is ‚ÄùNegotiations‚Äù.")), 1)])]),
                     _: 1
                 }), d(m, {
                     name: "11",
@@ -19794,8 +19794,8 @@ function mE(e, t, n, o, i, r) {
             }])
         }, {
             default: ge(()=>[F("div", KT, [r.isEnglish ? (me(),
-            ke("div", ZT, [Ce("You can also upgrade your characterÅfs skills to increase "), GT])) : (me(),
-            ke("div", QT, te(e.t("You can also upgrade your characterÅfs skills to increase passive hourly earnings.")), 1)), XT, F("div", JT, [d(a, {
+            ke("div", ZT, [Ce("You can also upgrade your character‚Äôs skills to increase "), GT])) : (me(),
+            ke("div", QT, te(e.t("You can also upgrade your character‚Äôs skills to increase passive hourly earnings.")), 1)), XT, F("div", JT, [d(a, {
                 class: "buttonNext",
                 icon: "arrow",
                 "icon-position": "right",
@@ -22756,8 +22756,8 @@ function dA(e) {
 }
 function fA(e) {
     for (var t = {
-        "%FE%FF": "??",
-        "%FF%FE": "??"
+        "%FE%FF": "ÔøΩÔøΩ",
+        "%FF%FE": "ÔøΩÔøΩ"
     }, n = Xu.exec(e); n; ) {
         try {
             t[n[0]] = decodeURIComponent(n[0])
@@ -22767,7 +22767,7 @@ function fA(e) {
         }
         n = Xu.exec(e)
     }
-    t["%C2"] = "?";
+    t["%C2"] = "ÔøΩ";
     for (var i = Object.keys(t), r = 0; r < i.length; r++) {
         var a = i[r];
         e = e.replace(new RegExp(a,"g"), t[a])
@@ -23450,7 +23450,7 @@ const dg = function(e) {
                 o.hero.money += this.stores.user.getTappedAllMoney,
                 o.hero.earns = this._cloneObject(this.stores.user.hero.earns),
                 this.stores.user.setHero(o.hero),
-                this.stores.user.setTappedToday(o.tapped_today)
+                this.stores.user.setTappedToday(100)
             } else
                 this.stores.user.lastSendTappedDate && this.stores.user.setLastSendTappedDate(null)
         },
@@ -23523,10 +23523,10 @@ const dg = function(e) {
             return navigator.userAgent.includes("iPhone")
         },
         _shareBtnClick() {
-            const e = encodeURIComponent(this.t(`?Play with me, grow your startup. 
+            const e = encodeURIComponent(this.t(`üî•Play with me, grow your startup. 
 
-? +5k coins as your first gift
-? +25k coins if you have Telegram Premium`));
+üí∏ +5k coins as your first gift
+üíµ +25k coins if you have Telegram Premium`));
             window.Telegram.WebApp.openTelegramLink(`${this._refLink()}&text=${e}`)
         },
         _refLink() {
